@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.9.16
-MAINTAINER Brian Prodoehl <bprodoehl@connectify.me>
+MAINTAINER Carl Kittelberger <icedream2k9@die-optimisten.net>
 
 # Set correct environment variables.
 ENV HOME /root
