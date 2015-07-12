@@ -1,9 +1,11 @@
-docker-turnserver
+Coturn for Docker
 =================
 
 A Docker container with the Coturn STUN and TURN server (https://code.google.com/p/coturn/)
 
-This is currently running v4.4.5.3.
+Pull this image with `docker pull dreamnetwork/coturn`. You can also specify a specific version via `docker pull dreamnetwork/coturn:<version here>`.
+
+You can run a container from this image like this:
 
 ```
 docker run -d --name=turnserver --restart="on-failure:10" --net=host -p 3478:3478 -p 3478:3478/udp dreamnetwork/coturn
