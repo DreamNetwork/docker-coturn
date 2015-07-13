@@ -3,7 +3,7 @@ Coturn for Docker
 
 A Docker container with the Coturn STUN and TURN server (https://code.google.com/p/coturn/)
 
-Pull this image with `docker pull dreamnetwork/coturn`. You can also specify a specific version via `docker pull dreamnetwork/coturn:<version here>`.
+Pull this image with `docker pull dreamnetwork/coturn`.
 
 You can run a container from this image like this:
 
